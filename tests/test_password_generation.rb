@@ -3,7 +3,7 @@ require "test/unit"
 
 class TestPasswordGenerator < Test::Unit::TestCase
 
-  def test_sample
+  def test_instantiation
     p = PasswordGenerator.new()
     assert_equal(p.class, PasswordGenerator)
   end
